@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para productos */
+
+.producto {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.producto h2 {
+    color: #333;
+}
+
+.producto p {
+    color: #666;
+}
+
+.agregar-carrito {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.agregar-carrito:hover {
+    background-color: #ff8533;
+}
+
+
+/* Estilos para productos */
+
+.producto {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    /*text-align:;  Centrar el contenido dentro del div */
+}
+
+.producto img {
+    width: 300px; /* Establecer un ancho fijo para la imagen */
+    height: auto; /* Permitir que la altura se ajuste automáticamente para mantener la proporción */
+    margin-bottom: 15px; /* Añadir un espacio entre la imagen y el resto del contenido */
+}
+
+.producto h2 {
+    color: #333;
+    margin-bottom: 10px; /* Añadir un espacio entre el título y la descripción */
+}
+
+.producto p {
+    color: #666;
+    margin-bottom: 10px; /* Añadir un espacio entre la descripción y el precio */
+}
+
+.producto .agregar-carrito {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto .agregar-carrito:hover {
+    background-color: #ff8533;
+}
+
+

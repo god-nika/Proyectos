@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 600px; /* Ajusta el ancho según lo desees */
+    padding: 20px;
+    background-color: #333; /* Fondo oscuro para el contenedor */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: white; /* Título en blanco */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* Etiquetas en blanco */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #485744; /* Bordes en un tono más claro */
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #444; /* Fondo de los inputs en un gris oscuro */
+    color: white; /* Texto en blanco */
+}
+
+input[type="submit"] {
+    background-color: gray; /* Color de fondo del botón */
+    color: #fff; /* Texto en blanco */
+    border: 1px solid green; /* Borde verde */
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    width: 99%; /* Ancho del botón */
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(252, 1, 1); /* Color de fondo al pasar el mouse */
+}
+
+a.btn {
+    display: inline-block;
+    background-color: gray; /* Color de fondo del botón de volver */
+    color: white; /* Texto en blanco */
+    border: 1px solid green; /* Borde verde */
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-decoration: none; /* Sin subrayado */
+    text-align: center; /* Centrar texto */
+    width: 92%;
+    margin-top: 10px;
+}
+
+a.btn:hover {
+    background-color: rgb(252, 1, 1); /* Color de fondo al pasar el mouse */
+}
+
+/* Espaciado entre elementos */
+.form-group {
+    margin-bottom: 20px; /* Espacio entre los grupos de formularios */
+}
